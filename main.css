@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: calc(100vh - 1px);
+    font-family: "Outfit", sans-serif;
+    background-color:  hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+.container{
+    max-width: 360px;
+    margin: 0;
+}
+
+.card{
+    width: 100%;
+    background-color: hsl(0, 0%, 100%);
+    padding: 18px;
+    border-radius: 17px;
+    text-align: center;
+    margin: 0 1em;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.05)
+}
+
+.card img{
+    width: 100%;
+    border-radius: 12px;
+    
+}
+
+.taxt{
+    padding: 22px 10px;
+}
+
+.taxt h2{
+    color: hsl(218, 44%, 22%);
+    padding-bottom: 15px;
+}
+
+.taxt p{
+    color: hsl(220, 15%, 55%);
+}
